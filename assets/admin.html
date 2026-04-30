@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin | iBoost Studio</title><link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="admin-body">
+
+<div id="authScreen" class="auth-screen">
+  <div class="auth-card">
+    <img src="assets/img/logo.png" alt="iBoost Studio logo">
+    <h1>Acceso administrador</h1>
+    <p>Ingresa la contraseña para administrar el sitio.</p>
+    <form id="authForm">
+      <label>Contraseña
+        <input id="adminPassword" type="password" autocomplete="current-password" placeholder="Contraseña de administrador" required>
+      </label>
+      <button class="btn primary" type="submit">Ingresar</button>
+      <small id="authError"></small>
+    </form>
+  </div>
+</div>
+
+<div class="admin-shell">
+  <div class="admin-top">
+    <div><h1>Panel admin iBoost Studio</h1><p class="small">Edita contenido y sincroniza directo con GitHub Pages usando tu token.</p></div>
+    <div class="row-actions"><a class="btn ghost" href="index.html">Ver sitio</a><button class="btn danger" id="logoutAdmin" type="button">Salir de admin</button></div>
+  </div>
+
+  <section class="admin-panel">
+    <h2>Conexión GitHub</h2>
+    <div class="admin-grid">
+      <label>Usuario / organización<input id="ghOwner" placeholder="freskismx"></label>
+      <label>Repositorio<input id="ghRepo" placeholder="iboost-studio"></label>
+      <label>Rama<input id="ghBranch" value="main"></label>
+      <label>Token GitHub<input id="ghToken" type="password" placeholder="github_pat_..."></label>
+    </div>
+    <p class="small">El token se usa solo en tu navegador. Para GitHub Pages, el repo debe tener publicados estos archivos.</p>
+    <div class="row-actions">
+      <button class="btn primary" id="saveSettings">Guardar conexión local</button>
+      <button class="btn ghost" id="loadGithub">Cargar JSON desde GitHub</button>
+      <button class="btn primary" id="pushGithub">Sincronizar cambios a GitHub</button>
+    </div>
+    <pre class="status" id="status">Listo.</pre>
+  </section>
+
+  <section class="admin-panel">
+    <h2>Datos principales</h2>
+    <div class="admin-grid">
+      <label>Nombre del negocio<input data-path="business.name"></label>
+      <label>Slogan<input data-path="business.slogan"></label>
+      <label>Ubicación<input data-path="business.location"></label>
+      <label>WhatsApp principal<input data-path="business.contacts.0.whatsapp"></label>
+      <label>Título principal<textarea data-path="hero.title"></textarea></label>
+      <label>Subtítulo<textarea data-path="hero.subtitle"></textarea></label>
+      <label>Descripción general<textarea data-path="business.description"></textarea></label>
+    </div>
+  </section>
+
+  <section class="admin-panel">
+    <h2>Servicios</h2>
+    <div id="servicesEditor" class="list-editor"></div>
+    <button class="btn ghost" onclick="addItem('services')">Agregar servicio</button>
+  </section>
+
+  <section class="admin-panel">
+    <h2>Testimonios con imagen</h2>
+    <div id="testimonialsEditor" class="list-editor"></div>
+    <button class="btn ghost" onclick="addItem('testimonials')">Agregar testimonio</button>
+  </section>
+
+  <section class="admin-panel">
+    <h2>Patrocinadores principales</h2>
+    <div id="sponsorsEditor" class="list-editor"></div>
+    <button class="btn ghost" onclick="addItem('sponsors')">Agregar patrocinador</button>
+  </section>
+
+  <section class="admin-panel">
+    <h2>Aliados</h2>
+    <div id="alliesEditor" class="list-editor"></div>
+    <button class="btn ghost" onclick="addItem('allies')">Agregar aliado</button>
+  </section>
+
+  <section class="admin-panel">
+    <h2>Música y PDF</h2>
+    <div class="admin-grid">
+      <label>Ruta de música MP3<input data-path="media.music" placeholder="assets/music/tema.mp3"></label>
+      <label>Ruta de PDF<input data-path="media.pdf" placeholder="assets/docs/catalogo.pdf"></label>
+      <label>Subir imagen / flyer<input type="file" id="imageUpload" accept="image/*"></label>
+      <label>Subir música / PDF<input type="file" id="fileUpload" accept=".mp3,.pdf"></label>
+    </div>
+    <div class="row-actions">
+      <button class="btn ghost" id="uploadImageBtn">Subir imagen a GitHub</button>
+      <button class="btn ghost" id="uploadFileBtn">Subir música/PDF a GitHub</button>
+    </div>
+  </section>
+
+  <section class="admin-panel">
+    <h2>Exportación local</h2>
+    <p class="small">También puedes descargar el JSON actualizado y reemplazarlo manualmente en <strong>data/site-config.json</strong>.</p>
+    <div class="row-actions">
+      <button class="btn primary" id="downloadJson">Descargar site-config.json</button>
+    </div>
+  </section>
+</div>
+<script src="assets/admin.js"></script>
+</body>
+</html>
