@@ -83,6 +83,16 @@
       "email": "freskiscdmx@gmail.com",
       "website": "https://freskiscdmx.github.io/freskis/",
       "flyer": "assets/img/Logo-Freskis.jpeg"
+    },
+    {
+      "name": "Chenistry",
+      "category": "Publicidad",
+      "description": "Si requires productos quimicos, estamos a tus ordenes",
+      "phone": "563000592",
+      "whatsapp": "563000592",
+      "email": "karen_rodriguez@chenistry.com.mx",
+      "website": "https://chenistry.com.mx/",
+      "flyer": "assets/img/chenistry.jpeg"
     }
   ],
   "allies": [
