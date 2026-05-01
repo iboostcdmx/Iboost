@@ -93,16 +93,6 @@
       "email": "ventas@ibooststudio.com",
       "website": "#",
       "flyer": "assets/img/lavado-auto.jpg"
-    },
-    {
-      "name": "Gamelab Studio",
-      "category": "Publicidad",
-      "description": "Ven a divertirte creando tus propios videojuegos con tus historias y retos ",
-      "phone": "",
-      "whatsapp": "5547719349",
-      "email": "gamelabcdmx@gmail.com",
-      "website": "https://gamelabmx.github.io/GameLab/index.html",
-      "flyer": "assets/img/logo-gamelab.png"
     }
   ],
   "allies": [
