@@ -75,16 +75,6 @@
   ],
   "sponsors": [
     {
-      "name": "Comida corrida",
-      "category": "Patrocinador",
-      "description": "Espacio para promocionar menús, descuentos y datos de contacto.",
-      "phone": "55 0000 0000",
-      "whatsapp": "5547719349",
-      "email": "contacto@ibooststudio.com",
-      "website": "#",
-      "flyer": "assets/img/comida-corrida.jpg"
-    },
-    {
       "name": "Spa automotriz",
       "category": "Patrocinador",
       "description": "Espacio para servicios de lavado, abrillantado y protección cerámica.",
