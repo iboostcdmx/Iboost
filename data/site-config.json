@@ -93,6 +93,16 @@
       "email": "karen_rodriguez@chenistry.com.mx",
       "website": "https://chenistry.com.mx/",
       "flyer": "assets/img/chenistry.jpeg"
+    },
+    {
+      "name": "Gamelab Studio",
+      "category": "Publicidad",
+      "description": "Diviertete creando tus propios videojuegos con tus historias y retos",
+      "phone": "5547719349",
+      "whatsapp": "5547719349",
+      "email": "Gamelabmx@outlook.com",
+      "website": "https://gamelabmx.github.io/GameLab/index.html",
+      "flyer": "assets/img/logo-gamelab.png"
     }
   ],
   "allies": [
