@@ -93,6 +93,16 @@
       "email": "ventas@ibooststudio.com",
       "website": "#",
       "flyer": "assets/img/lavado-auto.jpg"
+    },
+    {
+      "name": "Freskis + LGP",
+      "category": "Publicidad",
+      "description": "Disfruta de deliciosos Snaks y Postres",
+      "phone": "7206012472 ",
+      "whatsapp": "7206012472 ",
+      "email": "freskiscdmx@gmail.com",
+      "website": "https://freskiscdmx.github.io/freskis/",
+      "flyer": "assets/img/Logo-Freskis.jpeg"
     }
   ],
   "allies": [
