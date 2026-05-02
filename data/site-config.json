@@ -3,7 +3,7 @@
     "name": "iBoost Studio",
     "slogan": "Improve customer experience in your business",
     "location": "Las Américas, Ecatepec",
-    "description": "Sin importar tu tipo de negocio, nos enfocamos en darle la mejor experiencia de usuario a tu cliente. Ellos son nuestra prioridad, una agradeble experiencia que generara lealtad, confianza y más clientes.",
+    "description": "Nos enfocamos en darle la mejor experiencia de usuario a tu cliente. Ellos son nuestra prioridad, una agradeble experiencia que generara lealtad, confianza y más clientes.",
     "contacts": [
       {
         "name": "Allan Yarce",
@@ -16,7 +16,7 @@
     ]
   },
   "hero": {
-    "title": "Impulsamos tu negocio o servicio con tecnología fácil y funcional.",
+    "title": "Impulsamos tu negocio o servicio con tecnología fácil y funcional. $$$ Genera ingresos adicionales ofreciendo publicidad en tu sitio $$$, sencillo y sin conocimientos tecnicos ",
     "subtitle": "Creamos apps web dinámicas, promociones interactivas, publicidad, videojuegos, música personalizada y herramientas para que tus clientes compren, pidan, agenden y regresen."
   },
   "services": [
@@ -37,7 +37,7 @@
     },
     {
       "title": "Publicidad para negocios",
-      "description": "Espacios para patrocinadores y aliados con flyer, datos de contacto, WhatsApp y página web.",
+      "description": "Vende espacios para patrocinadores y aliados con flyer, datos de contacto, WhatsApp y página web.",
       "icon": "📣"
     },
     {
