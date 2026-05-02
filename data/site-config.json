@@ -107,16 +107,6 @@
   ],
   "allies": [
     {
-      "name": "Belleza",
-      "category": "Aliado",
-      "description": "Sitios y promociones para estética, maquillaje, peinado y eventos.",
-      "phone": "55 1111 1111",
-      "whatsapp": "5547719349",
-      "email": "aliado@ejemplo.com",
-      "website": "#",
-      "flyer": "assets/img/belleza.jpg"
-    },
-    {
       "name": "Veterinaria",
       "category": "Aliado",
       "description": "Presencia digital para clínicas, estética canina, urgencias y servicios para mascotas.",
